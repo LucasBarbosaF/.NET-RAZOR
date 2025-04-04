@@ -16,7 +16,7 @@ Este é um projeto de exemplo utilizando **ASP.NET Core MVC** com um sistema com
 
 - ASP.NET Core MVC
 - Entity Framework Core
-- SQL Server (ou outro banco relacional)
+- Banco de Dados SqlLite
 - Bootstrap 5
 - jQuery (para máscara de preço)
 
