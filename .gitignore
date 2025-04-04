@@ -1,0 +1,53 @@
+# Excluir build e arquivos temporários do .NET
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.nupkg
+*.snupkg
+*.tmp
+*.bak
+
+# Configurações e pacotes de dependência do .NET
+project.lock.json
+project.assets.json
+.nuget/
+*.suo
+*.user
+*.sln.docstates
+*.csproj.user
+
+# Ignorar dependências do Node.js (caso use npm/yarn)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# Pasta do Visual Studio
+.vs/
+.vscode/
+*.sln.ide
+*.swp
+
+# Configuração e cache do Rider (JetBrains)
+.idea/
+*.iml
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Docker e Kubernetes
+docker-compose.override.yml
+.dockerignore
+.kube/
+
+# Logs e dumps
+*.log
+*.dmp
+logs/
